@@ -1,0 +1,49 @@
+#ifndef SRC_RESERVE_SILICON_VALLEY_BANK_2_SRC_INDEX_H_
+#define SRC_RESERVE_SILICON_VALLEY_BANK_2_SRC_INDEX_H_
+
+/*#include "user_info.h"
+#include "communicate_accounts.h"
+#include "communicate_transactions.h"
+#include "user.h"
+#include "bank.h"
+#include "transaction_manager.h"
+#include "transaction_record.h"
+#include "account_manager.h"
+#include "i_account.h"
+#include "debit_account.h"
+#include "deposit_account.h"
+#include "credit_account.h"
+#include "i_account_info.h"
+#include "debit_account_info.h"
+#include "deposit_account_info.h"
+#include "credit_account_info.h"
+#include "user_manager.h"
+#include "login_manager.h"
+#include "password_manager.h"
+#include "user_builder.h"*/
+
+class UserInfo;
+class CommunicateAccounts;
+class CommunicateTransactions;
+class User;
+class Bank;
+class TransactionManager;
+class TransactionRecord;
+class AccountManager;
+class Account;
+class DebitAccount;
+class DepositAccount;
+class CreditAccount;
+class AccountInfo;
+class DebitAccountInfo;
+class DepositAccountInfo;
+class CreditAccountInfo;
+class UserManager;
+class LoginManager;
+class PasswordManager;
+class DBCommand;
+class CommandCheckPassword;
+class CommandGetUserId;
+class DBManager;
+
+#endif

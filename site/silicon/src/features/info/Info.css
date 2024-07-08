@@ -1,0 +1,6 @@
+.react-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}

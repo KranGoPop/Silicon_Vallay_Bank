@@ -1,0 +1,72 @@
+header {
+  background-color: #EEFFBF;
+}
+
+.page-changer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: .5rem auto 2rem auto;
+}
+
+.page-changer nav {
+  align-self: center;
+  display: flex;
+}
+
+.page-login-wrapp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #9a9a9a;
+}
+
+.page-login {
+  margin-left: 1rem;
+  color: #000;
+  font-size: 2rem;
+}
+
+.user-page-container {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+.user-page-container-info {
+  width: 100%;
+}
+
+.page-changer h1 {
+  display: block;
+  font-size: 45px;
+}
+
+.page-page {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .user-page-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-changer {
+    width: 95%;
+  }
+
+  .page-page {
+    font-size: 2rem;
+  }
+
+  .page-login-wrapp {
+    font-size: 1.4rem;
+  }
+
+  .page-login {
+    font-size: 2rem;
+  }
+}

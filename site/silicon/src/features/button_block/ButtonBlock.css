@@ -1,0 +1,4 @@
+.react-button-block>* {
+  margin-right: .3rem;
+  display: flex;
+}

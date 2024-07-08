@@ -1,0 +1,61 @@
+.bank-list-header {
+  width: 100%;
+  background-color: #EEFFBF;
+  padding: 2rem 5rem 2rem 5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header-logo {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+}
+
+.header-desc {
+  font-family: 'Righteous', cursive;
+  color: #878787;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+.profile {
+  cursor: pointer;
+  width: 4rem;
+}
+
+.profile > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .bank-list-header {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-logo {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bank-list-header {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bank-list-header {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .bank-list-header>* {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,8 @@
+.back-button_img {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+.back-button_img>img  {
+  width: 1rem;
+}

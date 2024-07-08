@@ -1,0 +1,17 @@
+.accounts {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+  .accounts {
+    flex-direction: column;
+  }
+
+  .accounts>* {
+    margin-bottom: 1rem;
+  }
+}

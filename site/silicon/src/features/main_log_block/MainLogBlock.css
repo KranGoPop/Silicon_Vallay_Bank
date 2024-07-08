@@ -1,0 +1,83 @@
+.main-log-block {
+  background-color: #FFF1BF;
+  width: 40%;
+  margin: 12rem auto 0 auto;
+  box-sizing: border-box;
+  padding: 3rem 0 3rem 0;
+  border-radius: 10px;
+  position: relative;
+}
+
+.main-log-block_bank-name {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.main-log-block_bank-name>* {
+  margin: 1rem;
+}
+
+.main-log-block_type {
+  margin-top: 1rem;
+  font-family: 'Righteous', cursive;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.main-log-block_inputs {
+  width: 95%;
+  margin: 2rem auto 0 auto;
+}
+
+.main-log-block_buttons {
+  width: 95%;
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-log-block_back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+@media screen and (max-width: 1500px) {
+  .main-log-block {
+    width: 80%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-log-block_bank-name {
+    font-size: 2rem;
+  }
+
+  .main-log-block_type {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-log-block {
+    width: 100%;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main-log-block_buttons {
+    flex-direction: column;
+  }
+
+  .main-log-block {
+    padding-bottom: 1rem;
+  }
+}

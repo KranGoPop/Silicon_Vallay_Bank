@@ -1,0 +1,13 @@
+.credit-acc-info {
+  font-size: 2rem;
+}
+
+.info {
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .credit-acc-info {
+    font-size: 1.3rem;
+  }
+}

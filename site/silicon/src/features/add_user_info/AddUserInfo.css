@@ -1,0 +1,24 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EEFFBF;
+  width: 20%;
+  height: 30rem;
+  justify-content: space-around;
+  
+  align-content: center;
+  margin: 12rem auto 0 auto;
+}
+
+.Main h1 {
+  text-align: center;
+}
+
+.BottomBlock {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: space-between;
+  align-items: baseline;
+}

@@ -1,0 +1,49 @@
+.account {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1rem 1rem 1rem;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.account-type {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.account-id {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.account-balance {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  .account {
+    font-size: 1.2rem;
+  }
+
+  .account-type {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .account-balance {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .account {
+    font-size: .9rem;
+  }
+}

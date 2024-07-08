@@ -1,0 +1,13 @@
+.react-error {
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: #FF9090;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.react-error-desc {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,33 @@
+.react-input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: .5rem .8rem .5rem .8rem;
+  font-size: 1.8rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.react-input-wrapp {
+  width: 100%;
+  position: relative;
+}
+
+.react-input-placeholder {
+  font-family: 'Righteous', cursive;
+  font-size: 1.5rem;
+  color: black;
+  position: absolute;
+  top: .5rem;
+  left: .9rem;
+  transition: all .3s;
+  color: #808080;
+  user-select: none;
+}
+
+.react-input-up {
+  top: -.8rem;
+  font-size: 1rem;
+  color: #000;
+}

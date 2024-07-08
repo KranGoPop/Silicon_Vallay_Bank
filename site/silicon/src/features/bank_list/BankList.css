@@ -1,0 +1,23 @@
+.bank-list-main {
+  width: 90%;
+  margin: 6rem auto 0 auto;
+}
+
+.bank-title {
+  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+}
+
+.bank-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .bank-list {
+    flex-direction: column;
+  }
+}

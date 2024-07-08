@@ -1,0 +1,102 @@
+.bank {
+  width: 31%;
+  height: 15rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bank-name {
+  font-family: 'Righteous', cursive;
+  font-size: 2rem;
+  transition: all .3s;
+}
+
+.bank:hover .bank-name {
+  font-size: 2.05rem;
+}
+
+.bank-city {
+  font-family: 'Righteous', cursive;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+  transition: all .3s;
+}
+
+.bank:hover .bank-city {
+  bottom: 0.8rem;
+  right: 1rem;
+}
+
+@media screen and (max-width: 2000px) {
+  .bank-name {
+    font-size: 1.5rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .bank-name {
+    font-size: 1.2rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bank {
+    width: 100%;
+    margin-bottom: 2rem;
+  }  
+
+  .bank-name {
+    font-size: 2rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 2.05rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .bank-name {
+    font-size: 1.5rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bank-name {
+    font-size: 1.2rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 1.3rem;
+  }
+
+  .bank-city {
+    right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .bank-name {
+    font-size: 1rem;
+  }
+
+  .bank:hover .bank-name {
+    font-size: 1.1rem;
+  }
+}

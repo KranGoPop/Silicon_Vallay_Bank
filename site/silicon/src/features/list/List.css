@@ -1,0 +1,7 @@
+.react-list {
+  width: 100%;
+}
+
+.react-list>div {
+  margin-bottom: 2rem;
+}
